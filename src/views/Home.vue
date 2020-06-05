@@ -1,14 +1,13 @@
 <template>
   <div>
     <h2>Home</h2>
+    <p>{{message}}</p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: "Home" // eslint-disable-line
-}; // eslint-disable-line
+  name: "Home",
+  data: { message: "Hi" }
+};
 </script>

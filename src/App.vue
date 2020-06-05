@@ -1,6 +1,3 @@
-import Vue from 'vue';
-import NavbarCo from './components/Navbar.vue'
-
 <template>
   <div>
     <NavbarCo />
